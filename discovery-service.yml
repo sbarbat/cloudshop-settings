@@ -1,12 +1,14 @@
 server:
-    port: 8761
-  eureka:
-    client:
-      registerWithEureka: false
-      fetchRegistry: false
+  port: 8761
   
-  
-  logging:
-    level:
-      com.netflix.eureka: 'OFF'
-      org.springframework.cloud: 'DEBUG'
+eureka:
+	client:
+		registerWithEureka: false
+		fetchRegistry: false
+	server:
+		waitTimeInMsWhenSyncEmpty: 0
+
+logging:
+	level:
+		com.netflix.eureka: 'DEBUG'
+		org.springframework.cloud: 'DEBUG'
