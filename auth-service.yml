@@ -8,5 +8,4 @@ eureka:
   
 logging:
   level:
-    com.netflix.discovery: 'DEBUG'
     org.springframework.cloud: 'DEBUG'
