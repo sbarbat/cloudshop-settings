@@ -10,3 +10,6 @@ logging:
   level:
     org.springframework.cloud: 'DEBUG'
     org.cloudshop: 'DEBUG'
+
+jwt:
+  secret: YOUR_SUPER_SECURE_SECRET_HERE!

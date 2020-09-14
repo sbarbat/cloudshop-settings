@@ -9,3 +9,6 @@ eureka:
 logging:
   level:
     org.springframework.cloud: 'DEBUG'
+
+jwt:
+  secret: YOUR_SUPER_SECURE_SECRET_HERE!
