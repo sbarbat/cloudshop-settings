@@ -13,3 +13,7 @@ logging:
 
 jwt:
   secret: YOUR_SUPER_SECURE_SECRET_HERE__YOUR_SUPER_SECURE_SECRET_HERE__YOUR_SUPER_SECURE_SECRET_HERE
+
+queue:
+  host: localhost
+  port: 5672
